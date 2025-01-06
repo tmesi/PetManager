@@ -18,7 +18,15 @@ namespace PetManager {
         public Person() {
             this.Pets = new BindingList<Pet>();
         }
+        
+        /// <summary>
+        /// LastName
+        /// </summary>
         public string Lastname { get; set; }
+        
+        /// <summary>
+        /// FirstName
+        /// </summary>
         public string Firstname { get; set; }
 
         public BindingList<Pet> Pets { get; private set; }
